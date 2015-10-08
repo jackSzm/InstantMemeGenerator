@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rest_endpoint">https://api.imgflip.com</string>
+    <string name="rest_username">MaxSzmelter</string>
+    <string name="rest_password">1nstantMemeGenerator</string>
+</resources>

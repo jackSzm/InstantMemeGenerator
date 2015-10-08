@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Material-->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <!--Action Bar-->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+        <!-- Text-->
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/primary</item>
+        <item name="background">@color/primary</item>
+    </style>
+
+    <style name="ImageViewDescriptor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/image_descriptor_height</item>
+        <item name="android:background">@color/image_descriptor_background</item>
+        <item name="android:textSize">@dimen/image_descriptor_text_size</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:paddingLeft">@dimen/padding_horizontal_large</item>
+        <item name="android:paddingRight">@dimen/padding_horizontal_medium</item>
+        <item name="android:paddingTop">@dimen/padding_vertical_large</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="DialogImageViewDescriptor" parent="ImageViewDescriptor">
+        <item name="android:layout_height">@dimen/image_descriptor_height_small</item>
+        <item name="android:paddingTop">@dimen/padding_vertical_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textCapCharacters</item>
+    </style>
+
+    <style name="AppCompat.Button.Flat" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/btn_flat_selector</item>
+        <item name="android:minWidth">@dimen/btn_flat_min_width</item>
+        <item name="android:minHeight">@dimen/btn_flat_min_height</item>
+        <item name="android:textColor">@color/btn_flat_selector</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:paddingLeft">@dimen/btn_flat_padding</item>
+        <item name="android:paddingRight">@dimen/btn_flat_padding</item>
+        <!--<item name="android:layout_marginLeft">@dimen/btn_flat_margin</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/btn_flat_margin</item>-->
+    </style>
+
+</resources>

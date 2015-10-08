@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="column_width">160dp</dimen>
+    <dimen name="column_height">208dp</dimen>
+
+    <dimen name="dialog_margin">24dp</dimen>
+
+    <dimen name="image_descriptor_height_small">24dp</dimen>
+    <dimen name="image_descriptor_height">48dp</dimen>
+
+    <dimen name="image_descriptor_text_size">14sp</dimen>
+
+    <dimen name="padding_very_small">2dp</dimen>
+
+    <dimen name="padding_vertical_small">4dp</dimen>
+    <dimen name="padding_vertical_medium">8dp</dimen>
+    <dimen name="padding_vertical_large">16dp</dimen>
+
+    <dimen name="padding_horizontal_large">16dp</dimen>
+    <dimen name="padding_horizontal_medium">8dp</dimen>
+
+    <dimen name="btn_flat_corner_radius">1dp</dimen>
+    <dimen name="btn_flat_min_width">48dp</dimen>
+    <dimen name="btn_flat_min_height">36dp</dimen>
+    <dimen name="btn_flat_padding">8dp</dimen>
+    <dimen name="btn_flat_margin">4dp</dimen>
+
+</resources>

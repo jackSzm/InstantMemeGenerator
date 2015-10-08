@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Instant Meme Generator</string>
+
+    <string name="message_loading">Loading…</string>
+    <string name="message_empty_list">We could not load items. Please try again later.</string>
+
+    <string name="button_create">Create</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="meme_dialog_top_text_hint">Top Text</string>
+    <string name="meme_dialog_bottom_text_hint">Bottom Text</string>
+
+
+    <string name="meme_dialog_imageview_description">Meme Image</string>
+
+</resources>

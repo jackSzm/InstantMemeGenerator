@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/meme_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/column_height"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder"/>
+
+    <TextView
+        android:id="@+id/meme_title"
+        style="@style/ImageViewDescriptor"
+        android:layout_alignBottom="@id/meme_imageview"
+        tools:text="Example Text"/>
+
+</merge>

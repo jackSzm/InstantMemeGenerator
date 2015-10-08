@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/meme_dialog_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/meme_dialog_imageview_description"
+            android:scaleType="fitXY"
+            tools:src="@drawable/placeholder"/>
+
+        <LinearLayout
+            android:id="@+id/meme_dialog_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/meme_dialog_imageview"
+            android:layout_margin="@dimen/dialog_margin"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/meme_dialog_top_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/meme_dialog_top_text_hint"/>
+
+            <EditText
+                android:id="@+id/meme_dialog_bottom_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/meme_dialog_bottom_text_hint"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/meme_dialog_container"
+            android:layout_marginEnd="@dimen/dialog_margin"
+            android:layout_marginRight="@dimen/dialog_margin"
+            android:paddingBottom="@dimen/dialog_margin">
+
+            <Button
+                android:id="@+id/meme_dialog_generate_button"
+                style="@style/AppCompat.Button.Flat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/button_create"/>
+
+            <Button
+                android:id="@+id/meme_dialog_cancel_button"
+                style="@style/AppCompat.Button.Flat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/meme_dialog_generate_button"
+                android:layout_toStartOf="@id/meme_dialog_generate_button"
+                android:text="@string/button_cancel"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
