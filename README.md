@@ -9,11 +9,10 @@ Acceptance criteria :
 
 Used libraries : 
 - Android Annotations
-- Rx Android 
-- Lombok 
-- Picasso 
-
+- Rx Android
+- Lombok
+- Picasso
 - Robolectric
 - JUnit
-- Mockito 
+- Mockito
 - AssertJ
